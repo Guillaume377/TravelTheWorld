@@ -123,9 +123,38 @@ h5{
 }
 
 
+/************************ style sandie ********************/
 
+#video {
+    width: 100%;
+    height: auto;
+}
 
+h2 {
+    color:#f68714;
+}
 
+.carousel-caption {
+    background-color:#2d3892;
+}
+
+.pack {
+    background-color: #f68714;
+    color: white;
+    text-align: center;
+    height:260px;
+}
+
+.button_pack {
+ background-color: #2d3892;
+ color: white;
+ text-decoration: none;
+ border-radius: 5px;
+}
+
+/* #2d3892
+#f68714
+#50ade6 */
 
 /* =================MEDIA QUERIES 1024px================ */
 
