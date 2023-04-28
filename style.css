@@ -1,30 +1,149 @@
-#video {
-    width: 100%;
-    height: auto;
-}
+
+/* global : 
+fonts : "Fjalla One", sans serif;
+colors : bleu foncé = #2de3892
+         bleu clair = #50ade6
+         orange = #f68714
+
+*/
+
+
+/* GLOBAL
+=================================== */
 
 h2 {
-    color:#f68714;
-}
-
-.carousel-caption {
-    background-color:#2d3892;
-}
-
-.pack {
-    background-color: #f68714;
-    color: white;
+    color: #f68714;
     text-align: center;
-    height:260px;
+    margin-top: 50px;
 }
 
-.button_pack {
- background-color: #2d3892;
- color: white;
- text-decoration: none;
- border-radius: 5px;
+p{
+    font-family: "fjalla One", sans serif;
 }
 
-/* #2d3892
-#f68714
-#50ade6 */
+
+
+
+/* HEADER
+=================================== */
+
+.navbar {
+    background-color: #f68714;
+    box-shadow: 0 0 10px #f68714;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: #2d3892;
+    color: #2d3892;
+    height: 20%;
+}
+
+.navbar img {
+    width: 250px;
+}
+
+.navbar a {
+    margin: 30px;
+    font-size: x-large;
+}
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* NOS COMPAGNIES
+=================================== */
+
+.noscompagnies {
+    margin-top: 200px;
+}
+
+.airfrance {
+    margin: auto;
+}
+
+.volotea {
+    margin-left: 60px;
+}
+
+.aircaraibes {
+    margin-top: 20px;
+}
+
+
+/* section : # bandeau */
+
+#bandeau{
+    height: 50%;
+    background-color :#50ade6;
+}
+
+#icon-bandeau{
+    font-size:x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section : footer réseaux sociaux */
+
+footer{
+    height:50%;
+    background-color: #f68714;
+}
+#reseaux{
+    color: #ffff;
+    font-size: 30px;
+}
+
+h5{
+    font-size: x-large;
+    color: white;
+
+}
+
+
+
+
+
+
+/* =================MEDIA QUERIES 1024px================ */
+
+@media screen and (max-width : 1024px) {
+    #reseaux{
+        padding:10px;
+
+/* =================MEDIA QUERIES 576px================ */
+
+@media screen and (max-width: 576px) {
+
+    #logo {
+        width: 150px;
+    }
+    .aircaraibes {
+        margin-left: 40px;
+    }
+    .volotea {
+        margin-left: 80px;
+    }
+}
