@@ -1,0 +1,111 @@
+/* DOCUMENT INFORMATION
+    - Document: thé thème
+    - Version: 1.0.0
+    - Author: Guillaume
+*/
+
+/* COLORS
+    -default body text #eee
+    -h1                
+    -h2                
+    -h3
+
+    -button
+    -button:hover
+
+    -icon               
+
+    -border
+*/
+
+/* FONTS
+    -Default        Lato
+    -Subtitle
+
+*/
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =PRODUITS
+
+*/
+
+/* GLOBAL
+=================================== */
+
+h2 {
+    color: #f68714;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* HEADER
+=================================== */
+
+.navbar {
+    background-color: #f68714;
+    box-shadow: 0 0 10px #f68714;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: #2d3892;
+    height: 20%;
+}
+
+.navbar img {
+    width: 250px;
+}
+
+.navbar a {
+    margin: 30px;
+    font-size: x-large;
+}
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+}
+
+
+/* NOS COMPAGNIES
+=================================== */
+
+.noscompagnies {
+    margin-top: 200px;
+}
+
+.airfrance {
+    margin: auto;
+}
+
+.volotea {
+    margin-left: 60px;
+}
+
+.aircaraibes {
+    margin-top: 20px;
+}
+
+/* =================MEDIA QUERIES 576px================ */
+
+@media screen and (max-width: 576px) {
+
+    #logo {
+        width: 150px;
+    }
+    .aircaraibes {
+        margin-left: 40px;
+    }
+    .volotea {
+        margin-left: 80px;
+    }
+}
