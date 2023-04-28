@@ -1,0 +1,49 @@
+
+/* global : 
+fonts : "Fjalla One", sans serif;
+colors : bleu foncé = #2de3892
+         bleu clair = #50ade6
+         orange = #f68714
+
+*/
+
+
+p{
+    font-family: "fjalla One", sans serif;
+
+}
+
+/* section : # bandeau */
+
+#bandeau{
+    height: 50%;
+    background-color :#50ade6;
+}
+
+#icon-bandeau{
+    font-size:x-large;
+}
+
+
+/* section : footer réseaux sociaux */
+
+footer{
+    height:50%;
+    background-color: #f68714;
+}
+#reseaux{
+    color: #ffff;
+    font-size: 30px;
+}
+
+h5{
+    font-size: x-large;
+    color: white;
+
+}
+
+@media screen and (max-width : 1024px) {
+    #reseaux{
+        padding:10px;
+    }
+}
